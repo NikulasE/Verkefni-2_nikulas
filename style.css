@@ -1,0 +1,26 @@
+.block-list li {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed rgb(0, 17, 255);}
+
+.inline-block-list li {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;}
+
+.left.box,
+.right.box {
+        width: 40%;
+        float: left;
+        padding: 20px;
+        border: 1px dashed green;
+        margin: 10px;
+    }
+
+.right.box img {
+        width: 200px; 
+        float:right;
+        margin: 10px;
+    }
